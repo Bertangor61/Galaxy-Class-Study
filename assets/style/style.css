@@ -1,0 +1,257 @@
+body{
+    background-image: url('../images/samanyolu.jpg');
+}
+.samanyolu{
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    animation: don 25s linear infinite;
+
+}
+.pluto{
+    width: 1100px;
+    height: 1100px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border:4px dashed white;
+    animation: don 90s linear infinite;
+    text-align: center;
+}
+.pluto img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: don 20s linear infinite;
+    top: -40px;
+}
+.neptun{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border:4px dashed white;
+    animation: don 200s linear infinite; /* güneş etrasında dönmesi en uzun gezegen bu sebeple en yavaş olanı */
+    text-align: center;
+}
+.neptun img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: don 20s linear infinite;
+    top: -40px;
+}
+
+.uranus{
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    border:4px dashed white;
+    animation: don 110s linear infinite;
+    text-align: center;
+}
+.uranus img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: don 20s linear infinite;
+    top: -40px;
+    }
+
+.saturn{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    border:4px dashed white;
+    animation: don 150s linear infinite;
+    text-align: center;
+}
+.saturn img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: don 20s linear infinite;
+    top: -40px;
+    }
+
+.jupiter{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    border:4px dashed white;
+    animation: don 100s linear infinite;
+    text-align: center;
+}
+.jupiter img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: don 20s linear infinite;
+    top: -40px;
+    }
+
+ .mars{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    border:4px dashed white;
+    animation: don 60s linear infinite;
+    text-align: center;
+}
+.mars img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: don 20s linear infinite;
+    top: -40px;
+}
+.dunya-ay{
+    width: 580px;
+    height: 580px;
+    border-radius: 50%;
+     animation: don 25s linear infinite;
+    
+}
+/* Ay'ın Dünya etrafında dönmesini yapamadım*/
+.dunya{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    border:4px dashed white;
+    animation: don 30s linear infinite;
+    text-align: center;
+}
+.dunya img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: don 20s linear infinite;
+    top: -40px;
+    }
+
+.ay{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    
+    animation: don 30s linear infinite;
+    text-align: center;
+}
+.ay img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation: don 10s linear infinite;
+    top: -40px;
+    } 
+.venus{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    border:4px dashed white;
+    animation: don 20s linear infinite;
+    text-align: center;
+}
+.venus img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: don 30s linear infinite; /*Kendi etrafında dhaa yavaş dönüyor*/
+    top: -40px;
+    }
+
+.merkur{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    border:4px dashed white;
+    animation: don 15s linear infinite;
+    text-align: center;
+}
+.merkur img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: don 20s linear infinite;
+    top: -40px;
+    }
+
+.gunes img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    animation: don 40s linear infinite;
+    text-align: center;
+}
+
+
+
+@keyframes don {
+    100%{
+        transform:rotate(-360deg);
+    }
+}
+@keyframes tersdon {
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+.bg-red{
+    background-color: #be0404!important;
+}
+.txt-red{
+    color: #f83838!important;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-red{
+    text-decoration: none;
+    background-color: #be0404!important;
+    color: #f3f3f3;
+    text-shadow: 1px 1px 2px #28262693;
+}
+.btn-red:hover{
+    background-color: #f83838!important;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
